@@ -6,6 +6,7 @@
 
 # str
 y = "I love Computer Science!"
+print(y)
 
 # numbers
 mynum = 47
@@ -44,8 +45,9 @@ def hello_world():
 
 # calling a function
 hello_world()
+hello_world()
 
-def add_two(n: int):
+def add_two(n):
     """Takes a number and returns that number + 2
     
     Args: 
@@ -55,6 +57,8 @@ def add_two(n: int):
         the input number + 2
     """
     return n + 2
+
+print(add_two(5))
 
 assert add_two(5) == 7, "add_two with input 5 test"
 assert add_two(-2) == 0, "add_two with input -2 test"
