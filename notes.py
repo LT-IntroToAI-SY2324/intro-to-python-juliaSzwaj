@@ -69,8 +69,20 @@ assert add_two(0) == 2, "add_two with input 0 test"
 # For Loop Template 1
 # do something for each item in a list
 lst = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+
 for el in lst:
     print(el)
+
+num_list = [1, 34, 67, 98, 104]
+
+for el in num_list:
+    print(el)
+
+s=0
+
+for el in num_list:
+    s += el
+print(s)
 
 # For Loop Template 2
 # do something n times
@@ -89,6 +101,13 @@ print(lst)
 
 dict = {"name": "rob", "age": 30}
 print(dict["age"])
+#key=name, value=rob
+#key=age, value=30 
+
+# "key": value, so when ask for key in dict["key"], the value will be printed, hence a dictionary
+
+dict = {"drink": "water"}
+print(dict["drink"])
 
 # Random
 import random
@@ -97,9 +116,16 @@ food = ['pizza', 'carrots', 'eggs']
 dinner = random.choice(food)
 print(dinner)
 
+#food = name of array/list
+#dinner is "function," when you print it it will print out a random food from "food"
+#random.choice(array) = what makes it actually randomize
+# **also you have to import it!!
+
 # f String
 age = 25
-# print("Mary is " + age + " years old")
+print("Mary is" , age , "years old")
+#you can use commas when printing things! and it adds spaces for you when you put them there
+
 print(f"Mary is {age} years old")
-
-
+#can put curly brackets around var and it works, but you need an f in front of the string so you dont have to do anything "crazy"
+#f stands for "formatter"
