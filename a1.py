@@ -16,6 +16,8 @@ from typing import List, TypeVar
 
 
 def absolute(n: int) -> int:
+
+    
     """Gives the absolute value of the passed in number. Cannot use the built in
     function `abs`.
 
@@ -30,6 +32,12 @@ def absolute(n: int) -> int:
     else:
         n
 
+def absolute(num: -3):
+    if num<0:
+        return -1*num
+    else: 
+        num
+
 
 def factorial(n: int) -> int:
     """Takes a number n, and computes the factorial n! You can assume the passed in
@@ -41,7 +49,7 @@ def factorial(n: int) -> int:
     Returns:
         factorial of the passed in number
     """
-    raise NotImplementedError("factorial")
+    ##raise NotImplementedError("factorial")
 
 
 T = TypeVar("T")
@@ -58,7 +66,7 @@ def every_other(lst: List[T]) -> List[T]:
     Returns:
         a list of every of other item in the original list starting with the first
     """
-    raise NotImplementedError("every_other")
+    ##raise NotImplementedError("every_other")
 
 
 def sum_list(lst: List[int]) -> int:
@@ -71,7 +79,7 @@ def sum_list(lst: List[int]) -> int:
     Returns:
         the sum of the passed in list
     """
-    raise NotImplementedError("sum_list")
+    ##raise NotImplementedError("sum_list")
 
 
 def mean(lst: List[int]) -> float:
@@ -83,7 +91,7 @@ def mean(lst: List[int]) -> float:
     Returns:
         the mean of the passed in list
     """
-    raise NotImplementedError("mean")
+    ##raise NotImplementedError("mean")
 
 
 def median(lst: List[int]) -> float:
@@ -98,7 +106,7 @@ def median(lst: List[int]) -> float:
     Returns:
         the median of the passed in list
     """
-    raise NotImplementedError("median")
+    ##raise NotImplementedError("median")
 
 
 def duck_duck_goose(lst: List[str]) -> List[str]:
@@ -120,7 +128,7 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
     Returns:
         the resulting list after playing duck duck goose
     """
-    raise NotImplementedError("duck_duck_goose")
+    ##raise NotImplementedError("duck_duck_goose")
 
 
 # this line causes the nested code to be skipped if the file is imported instead of run
