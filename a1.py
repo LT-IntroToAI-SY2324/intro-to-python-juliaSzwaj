@@ -32,13 +32,6 @@ def absolute(n: int) -> int:
     else:
         n
 
-def absolute(num: -3):
-    if num<0:
-        return -1*num
-    else: 
-        num
-
-
 def factorial(n: int) -> int:
     """Takes a number n, and computes the factorial n! You can assume the passed in
     number will be positive
