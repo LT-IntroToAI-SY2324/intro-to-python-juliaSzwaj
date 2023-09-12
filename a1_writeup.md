@@ -14,10 +14,12 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 
 1. What is your initial thoughts about the python programming language?
 
+So far, it is absolutely amazing honestly. In a way its much simpler than Java and the fact that you dont have to define your variable types or put semicolons on any code(which I forgot all the time) is so helpful and fun.
 
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
 
+I have learned both html and java. Python is definitely much easier than both. HTML and Python are very different to each other, as HTML uses those weird brackets(<>) to start and end each line of code which can get very repetitive and annoying, but python doesnt need them. Additionally, Java uses semicolons and lots of parenthesis and needs you to define variables, while python uses more colons, doesnt use semicolons, and defines the variables for you, making it super simple compared to other programming languages ive learned.
 
 
 3. What are some things that you learned through this assignment?
