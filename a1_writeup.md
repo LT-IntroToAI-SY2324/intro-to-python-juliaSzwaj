@@ -23,3 +23,4 @@ I have learned both html and java. Python is definitely much easier than both. H
 
 
 3. What are some things that you learned through this assignment?
+I learned a lot about using loops and lists in Python, mostly general information, and al lot of different ways in which I can use math in Python. I also learned some terms and different things that are possible in Python with the notes we took.
